@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="audio_video.html">Media</a></li>
+            </ul>
+            
+        </nav>
+        
+        
+    </header>
+    <h2>Welcome to car house</h2>
+    <form>
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+        
+        <label for="email">Your Email
+            <input id="email" type="text" placeholder="Your Email">
+        </label>
+        <fieldset>
+            <legend>Car Brand</legend>
+            <label for="lambo">
+                <input type="radio" name="brand" id="lambo">
+                Lamborghini
+            </label>
+            <label for="prado">
+                <input type="radio" name="brand" id="prado">
+                Prado
+            </label>
+            <label for="toyota">
+                <input type="radio" name="brand" id="toyota">
+                Toyota
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Pick color</legend>
+            <label for="black">
+                <input type="checkbox" name="color" id="black">
+                Black
+            </label>
+            <label for="Grey">
+                <input type="checkbox" name="color" id="Grey">
+                Grey
+            </label>
+            <label for="Blue">
+                <input type="checkbox" name="color" id="Blue">
+                Blue
+            </label>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+        
+    </form>
+    
+</body>
+</html>
